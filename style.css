@@ -1,0 +1,211 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+    margin: 0;
+    }
+
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    background-color: #6f5964;
+}
+
+#header {
+    height: 50px;
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#name {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#motto {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#top {
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.portrait {
+    display: flex;
+    background-color: #c0c0c0;
+    vertical-align: top;
+    max-width: 400px;
+    padding: 5px;
+}
+
+.portrait img {
+    max-width: 390px;
+}
+
+.bio {
+        height: 266px;
+        width: 495px;
+        vertical-align: top;
+}
+
+#bio-text {
+    margin: 15px;
+    text-align: justify;
+}
+
+p {
+    padding: 5px 0px;
+    font-size: 17px;
+}
+
+.bio a:link {
+    color: black;
+}
+
+
+
+#bottom {
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.pf-box {
+    width: 290px;
+    height:570px;
+    text-align: center;
+}
+
+.project-img img {
+    width:290px;
+}
+
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    padding: 5px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+#email {
+    border-right: 1px solid black;
+    padding-right: 5px;
+    margin-right: 5px;
+
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    height: 25px;
+    margin-top: 5px;
+}
+
+#social img {
+    height: 16px;
+    padding-right: 2px;
+    padding-left: 5px;
+}
+
+#social a:link {
+    color:black;
+}
+
+
+.block-title {
+    background: linear-gradient(#b2b1b5,#898795,#b2b1b5);
+    height: 40px;
+    color: #ecebe9;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bio, .pf-box {
+    background: linear-gradient(90deg,#ebeaea,#c7b1bc);
+}
+
+.proj-description p {
+    height: 160px;
+    font-size: 15px;
+    margin: 0px 10px;
+    text-align: justify;
+}
+
+.tech-title {
+    background: linear-gradient(#b2b1b5,#898795,#b2b1b5);
+    height: 35px;
+    color: #ecebe9;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.tech-icons2 {
+    margin-bottom: 10px;
+}
+
+.icons img {
+    width: 46px;
+    margin: 5px;
+}
+
+.pf-box .icons {
+    padding: 0px 5px;
+}
+
+.proj-btn {
+    background-color:seagreen;
+    margin: 0 auto;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 4px 3px 3px #5f5f5f;
+}
+
+.proj-btn a:link, .proj-btn a:visited {
+    color:white;
+}
+
+.proj-btn a {
+    text-decoration: none;
+}
