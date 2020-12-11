@@ -13,7 +13,7 @@
 #wrapper {
     width: 970px;
     margin: 0 auto;
-    background-color: #6f5964;
+    background: radial-gradient(#6f5964,#1b0b0f);
 }
 
 #header {
@@ -78,8 +78,6 @@ p {
     color: black;
 }
 
-
-
 #bottom {
     width: 920px;
     margin: 0 auto;
@@ -117,7 +115,6 @@ p {
     border-right: 1px solid black;
     padding-right: 5px;
     margin-right: 5px;
-
 }
 
 #social {
@@ -125,7 +122,6 @@ p {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
     height: 25px;
     margin-top: 5px;
 }
