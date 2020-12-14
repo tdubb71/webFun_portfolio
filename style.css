@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 0 30px;
 }
 
 #name {
@@ -50,12 +50,12 @@
     display: flex;
     background-color: #c0c0c0;
     vertical-align: top;
-    max-width: 400px;
+    width: 390px;
     padding: 5px;
 }
 
 .portrait img {
-    max-width: 390px;
+    width: 100%;
 }
 
 .bio {
@@ -70,7 +70,7 @@
 }
 
 p {
-    padding: 5px 0px;
+    padding: 5px 0;
     font-size: 17px;
 }
 
@@ -106,7 +106,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 
 
 }
@@ -156,7 +155,7 @@ p {
 .proj-description p {
     height: 160px;
     font-size: 15px;
-    margin: 0px 10px;
+    margin: 0 10px;
     text-align: justify;
 }
 
@@ -186,7 +185,7 @@ p {
 }
 
 .pf-box .icons {
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 .proj-btn {
